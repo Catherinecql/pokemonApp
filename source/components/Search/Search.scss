@@ -1,0 +1,37 @@
+.Search{
+    margin:auto;
+    color: skyblue;
+    text-align: center;
+    position: absolute;
+    margin:auto;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    .search-bar{
+        margin:0px 0px 10px 0px;
+        width:400px;
+        // margin:10px;
+        padding:20px 40px 20px 40px;
+        background-color:skyblue;
+    }
+    .menu-title{
+        margin:auto;
+    	color:black;
+        padding:10px 10px 0px 10px;
+        span{
+            padding:0px 10px 0px 10px;
+        }
+
+    }
+    .inputText{
+    	// float:left;
+    	// background-color:#b5f1fc;
+    	margin:10px 0px 10px 0px;
+    	appearance:field;
+    }
+    select{
+        padding:0px 10px 0px 10px;
+    	background-color:#b5f1fc;
+
+    }
+}
